@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    background-color: #004E87;    
+    height: 80px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family:  'Pacifico', cursive;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    padding: 40px 0px 0px 200px;
+    
+       
+}
+main h2{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:#004E87 ;
+    padding: 10px;
+
+}
+
+.article-one, .article-two, .article-three, .article-four, .article-five, .article-six, .article-seven{
+    border: solid 1px #5596c5;
+    margin: 10px;
+    width: 40ch;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    line-height: 1.3;
+    font-family: sans-serif;   
+}
+.account img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.account-info {
+    display: grid;
+    grid-template-rows: 1fr auto auto;
+    grid-gap: 5px;
+
+}
+.account-info span{
+    color: #004E87;
+    font-variant: small-caps;
+    
+}
+.account-name, .account-date{
+    font-size: 14px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.article-four, .article-five{
+    background-color: #28668B;
+    color: white;
+    border: none;
+}
+.article-four ol{
+  margin-right: 5px;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.article-four .account-info span, .article-five .account-info span {
+    color:white;
+    font-variant: small-caps;
+}
